@@ -1,0 +1,58 @@
+.landing
+{
+	background: black;
+	width: 100 vw;
+	height: 100 vh;
+}
+
+h1
+{
+	position: absolute;
+	top: 15%;
+	left: 40%;
+	transform: translate(-30%, -15%)
+}
+
+h3
+{
+	text-align: left;
+	font: Helvetica, Sans-Serif;
+}
+
+h4
+{
+	text-align: right;
+	font: Helvetica, Sans-Serif;
+}
+
+#title
+{  
+color: white;  
+font: 6vw 'DancingScript'; 
+letter-spacing: 1 vw;  
+/*background: rgb(0, 0, 0); 
+background: rgba(0, 0, 0, 0.7); padding: 2vw;*/
+text-align: center; 
+}
+
+#subtitle
+{  
+color: white;  
+font: 3vw 'DancingScript';  
+letter-spacing: 1 vw;  
+/*background: rgb(0, 0, 0); 
+background: rgba(0, 0, 0, 0.7); padding: 2vw; */
+text-align: center;
+}
+
+#title_story
+{
+	color: black;
+	font: 4vw;
+}
+
+#subtitle_story
+{
+	color: black;
+	font: 2vw;
+}
