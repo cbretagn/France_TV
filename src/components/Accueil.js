@@ -9,7 +9,7 @@ export default class Homepage extends Component {
 	render() {
 		return (
 			<div class="landing">
-				<Image src={chords_piano} alt="piano_chords" class="landingImage" style={{height: '100vh', width: '100%', 'object-fit': 'cover', opacity: 0.5}}/>
+				<Image src={chords_piano} alt="piano_chords" style={{height: '100%', width: '100%', objectFit: 'cover', opacity: 0.5, margin: 0, padding: 0}}/>
 				<h1 id='title'>
 					France Vezina
 					<br />
