@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Menu, Segment, Sticky } from 'semantic-ui-react'
+import { Menu, Segment } from 'semantic-ui-react'
 
 export default class StickyMenu extends Component {
 	state = { activeItem: 'Accueil' }
@@ -10,9 +10,8 @@ export default class StickyMenu extends Component {
 		const { activeItem } = this.state
 
 		return (
-			<Sticky>
 				<Segment inverted>
-					<Menu inverted pointing secondary>
+					<Menu inverted pointing secondary stackable>
 						<Menu.Item
 							name='Accueil'
 							active={activeItem === 'Accueil'}
@@ -35,7 +34,6 @@ export default class StickyMenu extends Component {
 						/>
 					</Menu>
 				</Segment>
-			</Sticky>
 		)
 	}
 }
