@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, createRef } from 'react';
 import { Menu, Segment } from 'semantic-ui-react'
 
 export default class StickyMenu extends Component {

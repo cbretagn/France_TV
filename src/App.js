@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
 import Homepage from './components/Accueil';
-import MainGridText from './components/MainGridText';
-import StickyMenu from './components/Menu';
+import GridMenu from './components/GridMenu';
 
 function App() {
 	return (
 		<div id='mainContainer'>
 			<Homepage />
-			<MainGridText />
+			<GridMenu />
 		</div>
 	);
 }

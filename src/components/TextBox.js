@@ -9,14 +9,7 @@ const TextBox = (props) => (
 		<br />
 		<br />
 		<br />
-		<p class="paragraphBox">{props.paragraphBox1}</p>
-		<p class="paragraphBox">{props.paragraphBox2}</p>
-		<p class="paragraphBox">{props.paragraphBox3}</p>
-		<p class="paragraphBox">{props.paragraphBox4}</p>
-		<br />
-		<br />
-		<br />
-		<br />
+		{props.paragraphBox}
 	</div>
 )
   

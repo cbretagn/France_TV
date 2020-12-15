@@ -2,9 +2,10 @@
 {
 	/*background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);*/
 	/*background-image: linear-gradient(to right, #434343 0%, black 100%);*/
-	background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+	/*background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);*/
 	/*background-image: linear-gradient(to top, #09203f 0%, #537895 100%);*/
 	/*background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);*/
+	background-color: #fffbf4;
 }
 
 .landing
@@ -14,30 +15,46 @@
 	height: 100vh;
 }
 
+.tarifs
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/music_sheet.jpg);
+}
+
+h4
+{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	font: 100em "Times";
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+}
+
 h1
 {
 	position: absolute;
-	top: 15%;
+	top: 30%;
 	left: 40%;
-	transform: translate(-30%, -15%)
+	transform: translate(-25%, -30%)
 }
 
 h3.titleBox
 {
-	font: 3.5em "Times";
-	text-align: center;
+	font: 3.7em "Times";
+	text-align: left;
 }
 
 p.paragraphBox
 {
-	font: 1.2em "Times";
+	font: 1.1em "Times";
 	text-align: justify;
 }
 
 #title
 {  
 color: white;  
-font: 6vw 'DancingScript'; 
+font: 4vw "Times"; 
 /*background: rgb(0, 0, 0); 
 background: rgba(0, 0, 0, 0.7); padding: 2vw;*/
 text-align: center; 
@@ -46,7 +63,7 @@ text-align: center;
 #subtitle
 {  
 color: white;  
-font: 3vw 'DancingScript';   
+font: 1.5vw "Times";   
 /*background: rgb(0, 0, 0); 
 background: rgba(0, 0, 0, 0.7); padding: 2vw; */
 text-align: center;
@@ -74,6 +91,18 @@ text-align: center;
 }
 
 hr.rounded {
-	border-top: 0.3em solid rgb(8, 6, 117);
+	border-top: 0.3em solid #bc1b37;
 	border-radius: 5px;
+}
+
+hr.tarifDivider {
+	border-top: 0.15em solid #bc1b37;
+	border-radius: 1em;
+}
+
+#headerTarifs
+{
+	color: black;
+	text-align: center;
+	font: 2rem "Times";
 }
